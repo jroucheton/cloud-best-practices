@@ -13,3 +13,4 @@
 * Extend Jenkinsfile with global shared librairies
 * Follow Sementic Versioning for deliveries 
 * Create pipelines as multi branch project
+* Only one Jenkinsfile per source code management
