@@ -1,16 +1,15 @@
 # best-practices
 
-1. CI/CD configuration as code
-2. Pipeline syntax as declerative
-3. Build as much in parallel as possible
-4. Monitor CI/CD pipelines
-5. Build on comit
-6. Keep same CI/CD configuration for branches
-7. Add timeout for aborting pipeline
-8. Add badges for version and duration
-9. Avoid parameters as muvh as possible
-10. Use Jenkins env as much as possible
-11. Extend Jenkinsfile with shared librairy
-12. Add version as Sementic Verioning 
-13. Define pipeline as multi branch project
-
+* CI/CD configuration as code
+* Pipeline syntax as declerative
+* Build as much in parallel as possible
+* Monitor CI/CD pipelines
+* Build on comit
+* Keep same CI/CD configuration for branches
+* Add timeout for aborting pipeline
+* Add badges for version and duration
+* Avoid parameters as muvh as possible
+* Use Jenkins env as much as possible
+* Extend Jenkinsfile with shared librairy
+* Add version as Sementic Verioning 
+* Define pipeline as multi branch project
