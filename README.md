@@ -5,8 +5,11 @@
 
 
 * Configuration as code
+
 You should store your CI/CD configuration in your source control management system.
 
-* Use Declerative Pipeline
+* Declerative Pipeline
+
 You should use declarative pipeline
 
+* Build as much in parallel as possible
