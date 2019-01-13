@@ -1,6 +1,6 @@
 
 ### Pipeline as code
-Pipelines should be configured through one file and stored into the source code repository.
+Pipelines should be coded through one file and stored into the source code repository.
 
 ### Pipeline as declarative
 Pipeline should be coded as much in a declarative way as possible.
