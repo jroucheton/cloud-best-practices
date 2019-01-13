@@ -3,27 +3,27 @@
 Pipelines should be coded through the Jenkinsfile and stored into the source code repository.
 
 **Benefits:**
-* Configuration is located in a single place. 
+* Configuration is located in a single place which is easier for maintenance. Nothing configured though Jenkins. 
 * History is available thanks to the source code repository.
 
 ## Pipeline as declarative
 Pipeline should be coded as much in a declarative way as possible.
 
 **Benefits:**
-* Configuration is more human readable. 
-* Declarative pipeline is the type which is more maintained by Jenkins community. 
+* Pipeline as delarative is more human readable. 
+* Declarative pipeline is maintained by Jenkins community. 
 
 ## Build as much in parallel as possible
-Tasks without dependencies should be processes in parallel.
+Tasks without strong dependencies should be processed in parallel.
 
 **Benefits:**
-* Fails faster.
+* Fails faster. For instance, pipelines, which builds two artifcacts, should be processed in parallel.  
 
 ## Monitor pipelines
 Pipelines should be monitored using the following plugin: [Build Monitor Plugin](https://wiki.jenkins.io/display/JENKINS/Build+Monitor+Plugin)
 
 **Benefits:**  
-* Having a dashoard containing all pipelines status.
+* Having a dashoard containing all pipelines status is a must have for minitoring daily.
 
 ## Build on commit!
 Pipelines should be triggered for each commits into the source code repository.
