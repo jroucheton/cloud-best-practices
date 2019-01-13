@@ -1,4 +1,6 @@
-# best-practices
+# Continuous Integration / Contiuous Delivery
+
+##  Best Practices
 
 * CI/CD configuration as code
 * Code pipelines as declerative
