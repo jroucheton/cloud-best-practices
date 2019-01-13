@@ -1,10 +1,18 @@
 
+## Create pipelines as multi branch project
+Pipelines should be created as multi branch project.
+
+**Benefits:**
+* Pipelines are created automatically for each banches.
+
+
 ## Pipeline as code
 Pipelines should be coded through the Jenkinsfile and stored into the source code repository.
 
 **Benefits:**
 * Configuration is located in a single place which is easier for maintenance. Nothing configured though Jenkins. 
 * History is available thanks to the source code repository.
+
 
 ## Pipeline as declarative
 Pipeline should be coded as much in a declarative way as possible.
@@ -68,12 +76,6 @@ Pipelines should build deliveries using the sementic versioning.
 
 **Benefits:**
 * This is a well known standard for Github community.
-
-## Create pipelines as multi branch project
-Pipelines should be created as multi branch project.
-
-**Benefits:**
-* Pipeline is added automatically if a new banch is created.
 
 ## Dedicated source code repository per pipelines
 Pipelines should be defined though a dedicated source code repository.
