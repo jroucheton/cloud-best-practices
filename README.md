@@ -4,6 +4,11 @@ Pipelines should be coded through one file and stored into the source code repos
 
 > Create a jenkinsfile and store it into the source code repository.
 
+Benefits:
+*
+*
+*
+
 ### Pipeline as declarative
 Pipeline should be coded as much in a declarative way as possible.
 
