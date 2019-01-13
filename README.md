@@ -1,8 +1,6 @@
 
 ## Pipeline as code
-Pipelines should be coded through one file and stored into the source code repository.
-
-> Create a jenkinsfile and store it into the source code repository.
+Pipelines should be coded through the Jenkinsfile and stored into the source code repository.
 
 **Benefits:**
 * Configuration is located in a single place. 
@@ -22,20 +20,20 @@ Tasks without dependencies should be processes in parallel.
 * Fails faster.
 
 ## Monitor pipelines
-Pipelines status should be monitored using the following plugin: [Build Monitor Plugin](https://wiki.jenkins.io/display/JENKINS/Build+Monitor+Plugin)
+Pipelines should be monitored using the following plugin: [Build Monitor Plugin](https://wiki.jenkins.io/display/JENKINS/Build+Monitor+Plugin)
 
 **Benefits:**  
 * Having a dashoard containing all pipelines status.
 
-## Build on comit!
-Pipilines should be triggered for each commits into the source code repository.
+## Build on commit!
+Pipelines should be triggered for each commits into the source code repository.
 
 **Benefits:**
-* Fails fast. 
+* Fails fast. Commits are tested though the pipeline as soon as possible.   
 * Pipeline status is up-to-date.
 
 ## Identical pipeline for all branches
-Pipelines should be identical between branches.
+Pipelines should be identical between branches. You should use the Jenkins variables for having a generic Jenkinsfile.
 
 **Benefits:**
 * Merge between branches is easier. 
@@ -44,7 +42,7 @@ Pipelines should be identical between branches.
 Pipelines should be aborted if too long.
 
 **Benefits:**
-* Fails fast.
+* Fails fast. If a pipeline is too long, it is not a good practice and should be aborted.
 
 ## Add badges for version and duration
 Badges should be added for monitoring versioning and duration.
@@ -59,9 +57,6 @@ Pipelines should avoid as musch as possible parameters.
 **Benefits:**
 * No expertise is needed for runnning a pipeline.
 
-## Use Jenkins env as much as possible
-
-
 ## Extend pipelines with shared librairies
 Pipelines should be based on shared libraries.
 
@@ -72,13 +67,18 @@ Pipelines should be based on shared libraries.
 Pipelines should build deliveries using the sementic versioning.
 
 **Benefits:**
-* This standard is well know for Github community.
+* This is a well known standard for Github community.
 
 ## Create pipelines as multi branch project
 Pipelines should be created as multi branch project.
 
 **Benefits:**
-* A new pipeline is created automatically if a new banch is created.
+* Pipeline is added automatically if a new banch is created.
 
-## Only one Jenkinsfile per source code management
-Pipelines should contain only configuration file per source code repository.
+## Dedicated source code repository per pipelines
+Pipelines should be defined though a dedicated source code repository.
+
+**Benefits:**
+*  
+
+
