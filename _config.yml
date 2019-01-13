@@ -1,5 +1,5 @@
 theme: jekyll-theme-architect
 title: CI/CD by jroucheton
 description: All you have to know for having the best CI/CD
-show_downloads: "false"
+show_downloads: false
 #google_analytics:
