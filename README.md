@@ -22,10 +22,10 @@ Tasks without dependencies should be processes in parallel.
 * Fails faster.
 
 ## Monitor pipelines
-Pipelines status should be monitored. 
+Pipelines status should be monitored using the following plugin: [Build Monitor Plugin](https://wiki.jenkins.io/display/JENKINS/Build+Monitor+Plugin)
 
 **Benefits:**  
-* 
+* Having a dashoard containing all pipelines status.
 
 ## Build on comit!
 Pipilines should be triggered for each commits into the source code repository.
