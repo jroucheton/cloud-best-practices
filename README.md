@@ -1,18 +1,43 @@
-# Continuous Integration / Contiuous Delivery
+#  Best Practices
 
-##  Best Practices
+## CI/CD configuration as code
+### Benefits
 
-* CI/CD configuration as code
-* Code pipelines as declerative
-* Build as much in parallel as possible
-* Monitor pipelines
-* Build on comit!
-* Same Jenkinsfile for all branches
-* Add timeout for aborting pipeline
-* Add badges for version and duration
-* Avoid parameters as much as possible
-* Use Jenkins env as much as possible
-* Extend Jenkinsfile with global shared librairies
-* Follow Sementic Versioning for deliveries 
-* Create pipelines as multi branch project
-* Only one Jenkinsfile per source code management
+## Code pipelines as declerative
+### Benefits
+
+## Build as much in parallel as possible
+### Benefits
+
+## Monitor pipelines
+### Benefits
+
+## Build on comit!
+### Benefits
+
+## Same Jenkinsfile for all branches
+### Benefits
+
+## Add timeout for aborting pipeline
+### Benefits
+
+## Add badges for version and duration
+### Benefits
+
+## Avoid parameters as much as possible
+### Benefits
+
+## Use Jenkins env as much as possible
+### Benefits
+
+## Extend Jenkinsfile with global shared librairies
+### Benefits
+
+## Follow Sementic Versioning for deliveries 
+### Benefits
+
+## Create pipelines as multi branch project
+### Benefits
+
+## Only one Jenkinsfile per source code management
+### Benefits
