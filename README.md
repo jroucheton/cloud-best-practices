@@ -12,7 +12,7 @@ Pipelines should be coded through the Jenkinsfile and stored into the source cod
 **Benefits:**
 * Configuration is located in a single place which is easier for maintenance. Nothing configured though Jenkins. 
 * History is available thanks to the source code repository.
-
+* Pipeline as code means pipeline as you want! Your dreams becomes reals. 
 
 ## Pipeline as declarative
 Pipeline should be coded as much in a declarative way as possible.
