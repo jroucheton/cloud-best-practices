@@ -3,6 +3,7 @@
 Pipelines should be coded through one file and stored into the source code repository.
 
 > Jenkins tips
+>
 > Store jenkinsfile into the source code repository.
 
 ### Pipeline as declarative
