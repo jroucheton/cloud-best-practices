@@ -6,13 +6,13 @@ Pipelines should be created as [multibranch project](https://jenkins.io/doc/book
 * Jenkins automatically discovers, manages and executes Pipelines for branches which contain a Jenkinsfile in source control. 
 
 ## Pipeline as code
-Pipelines should be coded using a [Jenkinsfile](https://jenkins.io/doc/book/pipeline/jenkinsfile) and stored into the source code repository.
+Pipelines should be coded using a [Jenkinsfile](https://jenkins.io/doc/book/pipeline/jenkinsfile) and stored into the source control.
 
 **Benefits:**
 * Code review/iteration on the Pipeline.
 * Audit trail for the Pipeline.
 * Single source of truth for the Pipeline, which can be viewed and edited by multiple members of the project.
-* History available thanks to the source code repository.
+* History available thanks to the source control.
 * Pipeline as code means pipeline as you want... Your dreams becomes reals!
 
 ## Pipeline as declarative
@@ -35,7 +35,7 @@ Pipelines should be monitored using the following plugin: [Build Monitor Plugin]
 * Having a dashoard containing all pipelines status is a must have for minitoring daily.
 
 ## Build on commit!
-Pipelines should be triggered for each commits into the source code repository.
+Pipelines should be triggered for each commits into the source control.
 
 **Benefits:**
 * Fails fast. Commits are tested though the pipeline as soon as possible.   
