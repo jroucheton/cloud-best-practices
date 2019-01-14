@@ -1,21 +1,22 @@
 
 ## Create pipelines as multi branch project
-Pipelines should be created as multi branch project.
+Pipelines should be created as [multibranch project](https://jenkins.io/doc/book/pipeline/multibranch/).
 
 **Benefits:**
-* Pipelines are created automatically for each banches.
-
+* Jenkins automatically discovers, manages and executes Pipelines for branches which contain a Jenkinsfile in source control. 
 
 ## Pipeline as code
-Pipelines should be coded through the Jenkinsfile and stored into the source code repository.
+Pipelines should be coded using a [Jenkinsfile](https://jenkins.io/doc/book/pipeline/jenkinsfile) and stored into the source code repository.
 
 **Benefits:**
-* Configuration is located in a single place which is easier for maintenance. Nothing configured though Jenkins. 
-* History is available thanks to the source code repository.
-* Pipeline as code means pipeline as you want! Your dreams becomes reals. 
+* Code review/iteration on the Pipeline.
+* Audit trail for the Pipeline.
+* Single source of truth for the Pipeline, which can be viewed and edited by multiple members of the project.
+* History available thanks to the source code repository.
+* Pipeline as code means pipeline as you want... Your dreams becomes reals!
 
 ## Pipeline as declarative
-Pipeline should be coded as much in a declarative way as possible.
+Pipeline should be coded as [declarative](https://jenkins.io/doc/book/pipeline/syntax).
 
 **Benefits:**
 * Pipeline as delarative is more human readable. 
