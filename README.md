@@ -34,7 +34,7 @@ Pipelines should be monitored using the following plugin: [Build Monitor Plugin]
 **Benefits:**  
 * Having a dashoard containing all pipelines status is a must have for minitoring daily.
 
-## Build on commit!
+## Build on commit
 Pipelines should be triggered for each commits into the source control.
 
 **Benefits:**
