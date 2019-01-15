@@ -23,7 +23,7 @@ Pipelines should be coded as [declarative](https://jenkins.io/doc/book/pipeline/
 * Declarative pipeline is maintained by Jenkins community. 
 
 ## Working with stages
-Pipelines should be define using [Stages](https://jenkins.io/doc/pipeline/steps/pipeline-stage-step).
+Pipelines should be define using [stages](https://jenkins.io/doc/pipeline/steps/pipeline-stage-step).
 
 **Benefits:**
 * Pipelines stages appears as pipelines steps. 
