@@ -16,11 +16,17 @@ Pipelines should be coded using a [Jenkinsfile](https://jenkins.io/doc/book/pipe
 * Pipeline as code means pipeline as you want... Your dreams becomes reals!
 
 ## Writing pipelines as declarative
-Pipeline should be coded as [declarative](https://jenkins.io/doc/book/pipeline/syntax/#declarative-pipeline).
+Pipelines should be coded as [declarative](https://jenkins.io/doc/book/pipeline/syntax/#declarative-pipeline).
 
 **Benefits:**
 * Pipeline as delarative is more human readable. 
 * Declarative pipeline is maintained by Jenkins community. 
+
+## Working with stages
+Pipelines should be define using [Stages](https://jenkins.io/doc/pipeline/steps/pipeline-stage-step).
+
+**Benefits:**
+* Pipelines stages appears as pipelines steps. 
 
 ## Building as much in parallel as possible
 Tasks without strong dependencies should be processed in [parallel](https://jenkins.io/doc/book/pipeline/syntax/#parallel).
