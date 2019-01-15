@@ -92,4 +92,8 @@ Pipelines should build deliveries using the [sementic versioning](https://semver
 **Benefits:**
 * This is a well known standard for Github community.
 
+## Adding Tag on source control
+Success pipelines should terminate adding a tag on source control. This tag should be the version.
 
+**Benefits:**
+* Be able to retrieve corresponding sources for a version.
