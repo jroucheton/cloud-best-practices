@@ -40,14 +40,14 @@ Pipelines should be monitored using the following plugin: [Build Monitor Plugin]
 **Benefits:**  
 * Having a dashoard containing all pipelines status is a must have for minitoring daily.
 
-## Building on commit
+## Running pipelines on commit
 Pipelines should be triggered for each commits into the source control.
 
 **Benefits:**
 * Fails fast. Commits are tested though the pipeline as soon as possible.   
 * Pipeline status is up-to-date.
 
-## Working with the Environment
+## Working with the environment variables 
 Jenkins exposes environment variables via the global variable env, which is available from anywhere within a Jenkinsfile.
 The full list of environment variables accessible from within Jenkins Pipeline is documented at: JENKINS_URL/pipeline-syntax/globals#env
  
