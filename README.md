@@ -1,11 +1,11 @@
 
-## Create pipelines as multi branch project
+## Creating pipelines as multi branch project
 Pipelines should be created as [multibranch project](https://jenkins.io/doc/book/pipeline/multibranch/).
 
 **Benefits:**
 * Jenkins automatically discovers, manages and executes Pipelines for branches which contain a Jenkinsfile in source control. 
 
-## Pipeline as code
+## Using pipelines as code
 Pipelines should be coded using a [Jenkinsfile](https://jenkins.io/doc/book/pipeline/jenkinsfile) and stored into the source control.
 
 **Benefits:**
@@ -15,31 +15,39 @@ Pipelines should be coded using a [Jenkinsfile](https://jenkins.io/doc/book/pipe
 * History available thanks to the source control.
 * Pipeline as code means pipeline as you want... Your dreams becomes reals!
 
-## Pipeline as declarative
+## Writing pipelines as declarative
 Pipeline should be coded as [declarative](https://jenkins.io/doc/book/pipeline/syntax/#declarative-pipeline).
 
 **Benefits:**
 * Pipeline as delarative is more human readable. 
 * Declarative pipeline is maintained by Jenkins community. 
 
-## Build as much in parallel as possible
+## Building as much in parallel as possible
 Tasks without strong dependencies should be processed in [parallel](https://jenkins.io/doc/book/pipeline/syntax/#parallel).
 
 **Benefits:**
 * Fails faster. For instance, pipelines, which builds two artifcacts, should be processed in parallel.  
 
-## Monitor pipelines
+## Monitoring pipelines
 Pipelines should be monitored using the following plugin: [Build Monitor Plugin](https://wiki.jenkins.io/display/JENKINS/Build+Monitor+Plugin)
 
 **Benefits:**  
 * Having a dashoard containing all pipelines status is a must have for minitoring daily.
 
-## Build on commit
+## Building on commit
 Pipelines should be triggered for each commits into the source control.
 
 **Benefits:**
 * Fails fast. Commits are tested though the pipeline as soon as possible.   
 * Pipeline status is up-to-date.
+
+## Working with the Environment
+Jenkins exposes environment variables via the global variable env, which is available from anywhere within a Jenkinsfile.
+The full list of environment variables accessible from within Jenkins Pipeline is documented at: JENKINS_URL/pipeline-syntax/globals#env
+ 
+**Benefits:**
+* Write a generic Jenkinsfile as much as possible.
+
 
 ## Add timeout for aborting pipeline
 Pipelines should be aborted if too long thank to a [timeout](https://jenkins.io/doc/book/pipeline/syntax/#options-example).
