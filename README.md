@@ -96,4 +96,4 @@ Pipelines should build deliveries using the [sementic versioning](https://semver
 Success pipelines should terminate adding a tag on source control. This tag should be the version.
 
 **Benefits:**
-* Be able to retrieve corresponding sources for a version.
+* Be able to retrieve the corresponding sources for a version.
