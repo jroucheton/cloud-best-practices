@@ -54,6 +54,11 @@ The full list of environment variables accessible from within Jenkins Pipeline i
 **Benefits:**
 * Write a generic Jenkinsfile as much as possible.
 
+## Handling failures with email
+Declarative pipelines support robust failure handling by default via its post section which allows declaring a number of different "post conditions" such as: always, unstable, success, failure, and changed.
+
+**Benefits:**
+* Send an e-mail to your team.
 
 ## Adding timeout for aborting pipeline
 Pipelines should be aborted if too long thank to a [timeout](https://jenkins.io/doc/book/pipeline/syntax/#options-example).
