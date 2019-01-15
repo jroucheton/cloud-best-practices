@@ -49,33 +49,33 @@ The full list of environment variables accessible from within Jenkins Pipeline i
 * Write a generic Jenkinsfile as much as possible.
 
 
-## Add timeout for aborting pipeline
+## Adding timeout for aborting pipeline
 Pipelines should be aborted if too long thank to a [timeout](https://jenkins.io/doc/book/pipeline/syntax/#options-example).
 
 **Benefits:**
 * Fails fast. If a pipeline is too long, it is not a good practice and should be aborted.
 
-## Add badges for version and duration
+## Adding badges for version and duration
 [Badges](https://jenkins.io/doc/pipeline/steps/badge) should be added for monitoring versioning and duration.
 
 **Benefits:**
 * Monitor quickly pipelines duration and alert if too long. 
 * Having the latest version for artifacts built by pipelines very quickly. 
 
-## Avoid parameters as much as possible
+## Avoiding parameters as much as possible
 Pipelines should avoid as musch as possible [parameters](https://jenkins.io/doc/book/pipeline/syntax/#parameters).
 
 **Benefits:**
 * No expertise is needed for runnning a pipeline.
 * Only one click for running a pipeline!
 
-## Extend pipelines with shared librairies
+## Extending pipelines with shared librairies
 Pipelines should be based on [shared libraries](https://jenkins.io/doc/book/pipeline/shared-libraries).
 
 **Benefits:**
 * All pipelines will be processed using the sae implemetntation for common tasks (checkout, push, ...)
 
-## Follow Sementic Versioning 
+## Following Sementic Versioning 
 Pipelines should build deliveries using the [sementic versioning](https://semver.org).
 
 **Benefits:**
