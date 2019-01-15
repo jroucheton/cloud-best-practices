@@ -23,10 +23,10 @@ Pipelines should be coded as [declarative](https://jenkins.io/doc/book/pipeline/
 * Declarative pipeline is maintained by Jenkins community. 
 
 ## Working with stages
-Pipelines should be define using [stages](https://jenkins.io/doc/pipeline/steps/pipeline-stage-step).
+Pipelines should be defined using [stages](https://jenkins.io/doc/book/pipeline/syntax/#stages) section which are where the bulk of the "work" described by a Pipeline will be located. At a minimum it is recommended that stages contain at least one stage directive for each discrete part of the continuous delivery process, such as **Checkout**, **Build** and **Delivery**.
 
 **Benefits:**
-* Pipelines stages appears as pipelines steps. 
+* Pipelines stages appears as pipelines steps.
 
 ## Building as much in parallel as possible
 Tasks without strong dependencies should be processed in [parallel](https://jenkins.io/doc/book/pipeline/syntax/#parallel).
