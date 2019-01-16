@@ -1,4 +1,5 @@
 
+[test](./jenkins/jenkins.html)
 ## Creating pipelines as multi branch project
 Pipelines should be created as [multibranch project](https://jenkins.io/doc/book/pipeline/multibranch/).
 
