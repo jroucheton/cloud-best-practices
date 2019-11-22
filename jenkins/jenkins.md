@@ -3,7 +3,7 @@
 Pipelines should be created as [multibranch project](https://jenkins.io/doc/book/pipeline/multibranch/).
 
 **Benefits:**
-* Jenkins automatically discovers, manages and executes Pipelines for branches which contain a Jenkinsfile in source control. 
+* Jenkins automatically discovers, manages and executes Pipelines for new branches. 
 
 ## Using pipelines as code
 Pipelines should be coded using a [Jenkinsfile](https://jenkins.io/doc/book/pipeline/jenkinsfile) and stored into the source control.
@@ -20,7 +20,7 @@ Pipelines should be coded as [declarative](https://jenkins.io/doc/book/pipeline/
 
 **Benefits:**
 * Pipeline as delarative is more human readable. 
-* Declarative pipeline is maintained by Jenkins community. 
+* Declarative pipeline is more maintained by Jenkins community. 
 
 ## Working with stages
 Pipelines should be defined using [stages](https://jenkins.io/doc/book/pipeline/syntax/#stages) section which are where the bulk of the "work" described by a Pipeline will be located. At a minimum it is recommended that stages contain at least one stage directive for each discrete part of the continuous delivery process, such as **Checkout**, **Build** and **Delivery**.
